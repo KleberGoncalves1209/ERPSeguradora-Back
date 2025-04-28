@@ -1,0 +1,20 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "API para gerenciamento de usuários, tipos de perfil, seguradoras, eventos, objetos de contabilização e sistemas contábeis com autenticação JWT, limite de tentativas de login, rotação de tokens, auditoria e diversas medidas de segurança",
+        "title": "API de Gerenciamento de Seguradoras",
+        "contact": {},
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/",
+    "paths": {},
+    "securityDefinitions": {
+        "BearerAuth": {
+            "description": "Autenticação usando JWT. Exemplo: \"Bearer {token}\"",
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}

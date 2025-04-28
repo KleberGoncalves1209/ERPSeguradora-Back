@@ -1,0 +1,17 @@
+basePath: /
+host: localhost:8080
+info:
+  contact: {}
+  description: API para gerenciamento de usuários, tipos de perfil, seguradoras, eventos,
+    objetos de contabilização e sistemas contábeis com autenticação JWT, limite de
+    tentativas de login, rotação de tokens, auditoria e diversas medidas de segurança
+  title: API de Gerenciamento de Seguradoras
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  BearerAuth:
+    description: 'Autenticação usando JWT. Exemplo: "Bearer {token}"'
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
